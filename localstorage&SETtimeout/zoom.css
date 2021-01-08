@@ -1,0 +1,121 @@
+#floter{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+}
+#zoomName{
+    color: rgb(45,140,255);
+    margin: 10px 15px 10px 50px;
+    font-size: 28px;
+}
+.floterLeft{
+    color: rgb(120,120,120);
+    margin: 16px 16px;
+    font-size: 14px;
+}
+.floterRight{
+    color: rgb(82,147,226);
+    margin: 16px 16px;
+    font-size: 14px;
+}
+#floterRight{
+    margin-left: 150px;
+}
+#floterBtn{
+    background-color: rgb(14,113,235);
+    color: white;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 4px 10px;
+    font-weight: 700;
+}
+
+#discription{
+    color: rgb(79,79,79);
+    text-align: center;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+#discription > h2{
+    font-weight: 200;
+}
+
+#disBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.disInbox{
+    flex-basis: 24%;
+    text-align: center;
+    color: rgb(79,79,79);
+    
+}
+.disInbox>h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.disInbox>p{
+    font-size: 16px;
+    margin-top: -14px;
+    line-height: 22px;
+}
+.iconbox-img{
+    width: 80px;
+    height: 80px;
+}
+
+#termBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.termInbox{
+    flex-basis: 24%;
+    display: flex;
+    text-align: left;
+    color: rgb(79,79,79);
+}
+.termInbox >div >p{
+    font-size: 17px;
+    margin-top: -8px;
+    line-height: 22px;
+}
+.termInbox >div >h4{
+    font-size: 17px;
+    margin-top: -8px;
+    line-height: 22px;
+}
+
+#bottom{
+    height: 80px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+#bottombtn1{
+    border: 1px solid lightslategray;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#bottombtn2{
+    border: none;
+    background-color: rgb(242,109,33);
+    color: white;
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
