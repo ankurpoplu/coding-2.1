@@ -1,0 +1,30 @@
+table{
+    border: 1px solid gray;
+    padding: 5px;
+    width: 100%;
+}
+tr{
+    display: flex;
+    justify-content: space-evenly;
+}
+td{
+    text-align: center;
+    flex-basis: 25%;
+    border: 1px solid ;
+    padding: 5px;
+}
+.url{
+    flex-basis: 40%;
+}
+#search,#order,#sort{
+    padding: 10px;
+    margin: 20px;
+}
+#btn{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(94, 94, 248);
+    border: none;
+    width: 120px;
+    color: white;
+}

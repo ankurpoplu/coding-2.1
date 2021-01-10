@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="github.css">
+        <title>Repo-Search</title>
+    </head>
+    <body>
+        <form>
+            <input type="text" placeholder="Search Repository Here" name="search" id="search"/>
+            <select name="sort" id="sort">
+                <option value="">Sort Type</option>
+                <option value="stars">stars</option>
+                <option value="forks">forks</option>
+                <option value="help-wanted-issues">help-wanted-issues</option>
+                <option value="updated">updated</option>
+            </select>
+            <select name="order" id="order">
+                <option value="">Order Type</option>
+                <option value="asc">Ascending</option>
+                <option value="desc">Decending</option>
+            </select>
+            <button type="submit" id="btn">SUBMIT</button>
+        </form>
+        <div id="repBox">
+            
+        </div>
+        <script src="github.js"></script>
+    </body>
+</html>
