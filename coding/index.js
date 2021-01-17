@@ -5,6 +5,8 @@ let btn3 = document.getElementById('btn3')
 
 window.addEventListener('load',preJock)
 
+
+
 function preJock(){
     let form = document.querySelector('form')
     form.addEventListener('submit',onSubmit)
@@ -22,12 +24,16 @@ function preJock(){
             output = `<div>
             <img src="${data.icon_url}">
             <h3>${data.value}</h3>
-            <button id="btn3">REFRESH</button>
+            <button value='reload' id="btn3">REFRESH</button>
             </div>`
         }
         display1.innerHTML = output
     }      
 }
+
+btn3.addEventListener('click',function(){
+    window.location.reload()
+})
 
 function onSubmit(){
     event.preventDefault()
