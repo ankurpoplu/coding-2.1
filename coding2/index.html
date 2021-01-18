@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>search repo</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Enter name of Repository" name="rep" id="rep"/>
+        <select name="sort" id="sort">
+            <option value="">Sort Type</option>
+            <option value="followers">Followers</option>
+            <option value="repos">Repositories</option>
+        </select>
+        <select name="order" id="order">
+            <option value="">Order Type</option>
+            <option value="asc">Ascending</option>
+            <option value="desc">Decending</option>
+        </select>
+        <button value="per_page" name="btn1" id="btn1">Per Page (100 results)</button>
+        <input type="number" placeholder="Enter page number" name="pageno" id="pageno"/>
+        <br>
+        <button type="submit" id="btn">SUBMIT</button>
+    </form>
+    <div id="outputBox">
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
