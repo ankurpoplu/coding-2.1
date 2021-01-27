@@ -1,0 +1,50 @@
+#mainBox{
+    margin: 0;
+    /* position: absolute; */
+}
+#titleBox{
+    text-align: center;
+    color: rgb(129, 0, 0);
+}
+#buttonBox{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    padding: 10px 0 10px 0;
+}
+.btn-1{
+    width: 20%;
+    height: 40px;
+    background-color: rgb(139, 139, 250);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 1px 1px 12px rgb(162, 201, 233);
+}
+.btn-1:hover{
+    background-color: rgb(101, 101, 247);
+    height: 45px;
+}
+
+#itemBox{
+    margin: 3%;
+}
+#elecBox , #fashBox, #hmappBox{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#pay{
+    width: 15%;
+    height: 30px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    float: right;
+    margin: 10px;
+}
