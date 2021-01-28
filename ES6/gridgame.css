@@ -1,0 +1,14 @@
+#gridBox{
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#gridBox > div{
+    background-color: black;
+    text-align: center;
+    color: white;
+    flex-basis: 9.8%;
+    height: 60px;
+    width: 10%;
+    border: 1px solid white;
+}
