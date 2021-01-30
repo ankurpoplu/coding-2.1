@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+#form{
+    margin: 2%;
+}
+form{
+    margin-bottom: 20px;
+}
+#btn-2 ,form>button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+#delay ,form>input{
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    color: white;
+}
+.line{
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid gray;
+}
+#info{
+    display: flex;
+    margin: 50px;
+    text-align: center;
+}
+.box{
+    flex-basis: 30%;
+    text-align: center;
+    border: 1px solid black;
+}
