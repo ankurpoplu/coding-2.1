@@ -1,0 +1,15 @@
+#input{
+    margin-left: 35%;
+}
+#output{
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+    margin: 1% 45%;
+}
+.btn {
+    margin: 10px 50px 10px 30px;
+}
+.num{
+    margin-left: 10px;
+}
